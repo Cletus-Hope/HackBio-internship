@@ -1,0 +1,23 @@
+# When DNA Meets AI: Can Algorithms Read the Language of Life?
+
+## Introduction
+DNA encodes the biological instructions that underpin all living systems, yet interpreting this information remains a central challenge in modern biology. The human genome alone consists of over three billion base pairs, generating vast and complex datasets that exceed the capacity of traditional analytical approaches (Alharbi and Rashid, 2022). In recent years, AI, particularly deep learning, has emerged as a transformative tool capable of extracting meaningful patterns from high-dimensional data. This convergence of genomics and AI raises a critical question: can algorithms truly “read” the language of life?
+
+## Main Body
+Genomics has become increasingly data-driven due to high-throughput sequencing technologies, which generate large-scale datasets requiring advanced computational methods for interpretation (Alharbi and Rashid, 2022). Deep learning models, inspired by neural networks, are particularly well suited to this task because they can automatically learn hierarchical features from raw data without relying on predefined rules (Nagarajan et al., 2024). These models have been successfully applied to tasks such as predicting gene expression, identifying regulatory elements, and detecting disease-associated variants.
+
+A major conceptual breakthrough has been the application of transformer-based architectures, originally developed for natural language processing. These models treat DNA sequences analogously to text, learning contextual relationships between nucleotides (Choi et al., 2023). For instance, large-scale “genome language models” can be pre-trained on vast genomic datasets and then fine-tuned for specific biological tasks, demonstrating strong predictive performance even with limited labelled data (Dalla-Torre et al., 2025). This approach mirrors how language models learn grammar and semantics, suggesting that DNA may indeed possess a form of “biological syntax.”
+
+Despite these advances, several limitations constrain the field. One key challenge is the requirement for extensive, high-quality training data, which is unevenly distributed across species and conditions. Furthermore, many AI models operate as “black boxes,” producing predictions without offering mechanistic explanations. This lack of interpretability is particularly problematic in biology, where understanding causal relationships is essential for experimental validation and clinical application (Choi et al., 2023). Additionally, early transformer models struggled to capture long-range interactions in DNA due to computational constraints, limiting their ability to model regulatory elements that act over large genomic distances.
+
+Recent innovations aim to address these issues. Foundation models trained on thousands of genomes can now generate context-aware representations of DNA sequences, enabling improved prediction of molecular phenotypes and variant effects (Dalla-Torre et al., 2025). Moreover, emerging architectures are designed to handle longer genomic contexts and integrate multiple data types, enhancing biological relevance. Nevertheless, translating these computational predictions into experimentally validated insights remains a significant bottleneck.
+
+## Conclusion
+AI has undeniably advanced our ability to analyse genomic data, offering unprecedented insights into gene regulation, disease mechanisms, and biological complexity. However, while algorithms can identify patterns with remarkable accuracy, they do not yet fully “understand” the underlying biology. Bridging this gap will require not only improved models but also closer integration between computational predictions and experimental validation. As the field evolves, AI is likely to become an indispensable tool in genomics; less as a replacement for human insight, and more as a powerful collaborator in decoding the language of life.
+
+## References
+1. Alharbi, W.S., & Rashid, M. (2022). *A review of deep learning applications in human genomics using next-generation sequencing data.* Human Genomics.
+2. Dalla-Torre, H. et al. (2025). *Nucleotide Transformer: building and evaluating robust foundation models for human genomics.* Nature Methods.
+3. Consens, M.E. et al. (2025). *Transformers and genome language models.* Nature Machine Intelligence.
+4. Nagarajan, R., Wang, C., Walton, D., and Walton, N. (2024). *Artificial intelligence applications in genomics.* Advances in Molecular Pathology, 7(1), pp.145–154.
+5. Choi, S.R., & Lee, M. (2023). *Transformer Architecture and Attention Mechanisms in Genome Data Analysis.* Biology.
